@@ -1,0 +1,60 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[value="tambah"],
+button[value="kurang"],
+button[value="kali"],
+button[value="bagi"] {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+#hasilbtn {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.alert-error {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
